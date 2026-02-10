@@ -1736,6 +1736,81 @@ footer::before {
 /* ============================
    Responsive
    ============================ */
+
+/* Laptops pequeñas (1366px, 1280px, etc.) */
+@media (max-width: 1400px) {
+    .slide-text {
+        max-width: 420px;
+    }
+    
+    .card-body h1 {
+        font-size: 2rem;
+    }
+    
+    .card-body h1 .highlight {
+        font-size: 2.2rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .container {
+        padding: 0 30px;
+    }
+    
+    .brand-logo img {
+        height: 130px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .slide-text {
+        max-width: 380px;
+    }
+    
+    .card-body h1 {
+        font-size: 1.8rem;
+    }
+    
+    .card-body h1 .highlight {
+        font-size: 2rem;
+    }
+    
+    .card-body p {
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .bento-grid {
+        gap: 15px;
+    }
+    
+    .dest-grid {
+        gap: 20px;
+    }
+    
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 10px 12px;
+    }
+    
+    .brand-logo img {
+        height: 110px;
+    }
+    
+    .brand-area {
+        padding: 1rem 0;
+    }
+    
+    .slide-content {
+        padding-top: 100px;
+    }
+}
+
 @media (max-width: 1024px) {
     .bento-grid {
         grid-template-columns: repeat(2, 1fr);
